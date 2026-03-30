@@ -38,7 +38,7 @@ const Home = () => {
           {/* Image */}
           <div>
             <img
-              src="src/assets/hero.jpg" 
+              src="/hero.jpg" 
               alt="Shopping"
               className="w-full h-[350px] object-cover rounded-xl shadow-md"
             />
