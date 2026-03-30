@@ -1,13 +1,12 @@
 // Home Page
 const Home = () => {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-white">
 
       {/* Hero Section */}
       <div className="bg-white py-16 px-4">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
-          {/* Text */}
           <div>
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900">
               Welcome to <span className="text-blue-600">Thrift-Solute</span>
