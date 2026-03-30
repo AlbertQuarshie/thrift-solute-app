@@ -31,7 +31,7 @@ function Footer() {
     </div>
 
     <p class="text-white text-sm mt-6">
-      © 2026 Literary Oasis. All rights reserved.
+      © 2026 Thrift-Solute. All rights reserved.
     </p>
 
   </div>
