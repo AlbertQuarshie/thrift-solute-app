@@ -58,7 +58,7 @@ npm run dev
 
 Thrift-Solute is designed to make thrift shopping accessible online, supporting sustainable shopping habits by offering curated products at affordable prices. The platform models how a simple but elegant e-commerce site can enhance user experience with minimal but effective features, catering to budget-conscious shoppers.
 
-###F. Future Improvements
+### F. Future Improvements
 #### 1. Backend Integration
 
 Connect to a backend service (Node.js, Django, etc.) to manage users, products, and orders securely with persistent databases.
