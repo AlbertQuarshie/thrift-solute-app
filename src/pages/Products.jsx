@@ -7,18 +7,17 @@ const Products = () => {
 
   useEffect(() => {
     fetch("https://fakestoreapi.com/products")
-      .then(res => res.json())
-      .then(data => setProducts(data));
+      .then((res) => res.json())
+      .then((data) => setProducts(data));
   }, []);
 
-  const filtered = products.filter(p =>
-    p.title.toLowerCase().includes(search.toLowerCase())
+  const filtered = products.filter((p) =>
+    p.title.toLowerCase().includes(search.toLowerCase()),
   );
 
   return (
     <div className="p-4">
-
-      {/* SEARCH HERE */}
+      {/* Search area */}
       <input
         type="text"
         placeholder="Search products..."
@@ -26,13 +25,12 @@ const Products = () => {
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />
-
+      {/* Displaying content from api to the page */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {filtered.map(product => (
+        {filtered.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
       </div>
-
     </div>
   );
 };
